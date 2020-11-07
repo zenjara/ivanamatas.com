@@ -48,43 +48,48 @@ const Experience = () => {
         <div className={style.certificates}>
           <h2 className={style.experienceTitle}>Certificates</h2>
           <div className={style.certificate}>
-            <a href={AdvancedJS} target="_blank">Advanced JavaScript <span>ui.dev</span> </a>
+            <a href={AdvancedJS} target="_blank" rel="noreferrer">Advanced JavaScript <span>ui.dev</span> </a>
           </div>
           <div className={style.certificate}>
-            <a href={ModernJS} target="_blank">Modern JavaScript <span>ui.dev</span> </a>
+            <a href={ModernJS} target="_blank" rel="noreferrer">Modern JavaScript <span>ui.dev</span> </a>
           </div>
           <div className={style.certificate}>
-            <a href={ReactJS} target="_blank">React<span>ui.dev</span> </a>
+            <a href={ReactJS} target="_blank" rel="noreferrer">React<span>ui.dev</span> </a>
           </div>
           <div className={style.certificate}>
             <a href='https://www.freecodecamp.org/certification/zenjara/legacy-front-end'
-               target="_blank">freeCodeCamp<span>Front End Development Program, Computer Engineering</span> </a>
+               target="_blank"
+               rel="noreferrer">freeCodeCamp<span>Front End Development Program, Computer Engineering</span> </a>
           </div>
           <div className={style.certificate}>
-            <a href='https://www.udemy.com/certificate/UC-3OJSSTW2/' target="_blank">C# Basics: Learn to Code the Right
+            <a href='https://www.udemy.com/certificate/UC-3OJSSTW2/' target="_blank" rel="noreferrer">C# Basics: Learn
+              to Code the Right
               Way<span>Udemy</span> </a>
           </div>
           <div className={style.certificate}>
-            <a href='https://www.udemy.com/certificate/UC-K134ALPI/' target="_blank">YouTube Best Practices - Tips for
+            <a href='https://www.udemy.com/certificate/UC-K134ALPI/' target="_blank" rel="noreferrer">YouTube Best
+              Practices - Tips for
               Starting a YouTube Channel<span>Udemy</span> </a>
           </div>
           <div className={style.certificate}>
-            <a href='https://www.udemy.com/certificate/UC-CBTJ4JLE/' target="_blank">Building a Personal
+            <a href='https://www.udemy.com/certificate/UC-CBTJ4JLE/' target="_blank" rel="noreferrer">Building a
+              Personal
               Brand<span>Udemy</span> </a>
           </div>
 
           <div className={style.certificate}>
-            <a href='https://www.udemy.com/certificate/UC-YMYJQ713/' target="_blank">Practical PHP: Master the Basics
+            <a href='https://www.udemy.com/certificate/UC-YMYJQ713/' target="_blank" rel="noreferrer">Practical PHP:
+              Master the Basics
               and Code Dynamic Websites<span>Udemy</span> </a>
           </div>
           <div className={style.certificate}>
-            <a href={Coursera} target="_blank">Programming for Everybody<span>Coursera</span> </a>
+            <a href={Coursera} target="_blank" rel="noreferrer">Programming for Everybody<span>Coursera</span> </a>
           </div>
 
         </div>
       </div>
       <div className={style.resumeContainer}>
-        <a href={Resume} target='_blank' className={style.resume}>
+        <a href={Resume} target='_blank' rel="noreferrer" className={style.resume}>
           Resume
         </a>
       </div>

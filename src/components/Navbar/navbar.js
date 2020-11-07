@@ -15,8 +15,9 @@ const Navbar = (props) => {
 
       <div className={style.navLinks}>
         <Link className={props.active ? style.active : null} to="/about/">About me</Link>
-        <Link to="https://medium.com/@ivanmatas" target='_blank'>Blog</Link>
-        <Link to="https://www.youtube.com/channel/UCjSkilftOHgTQQfP-BQV8HQ/videos" target='_blank'>Podcast</Link>
+        <Link to="https://medium.com/@ivanmatas" target='_blank' rel="noreferrer">Blog</Link>
+        <Link to="https://www.youtube.com/channel/UCjSkilftOHgTQQfP-BQV8HQ/videos" target='_blank'
+              rel="noreferrer">Podcast</Link>
         <Link to="/#contact">Contact</Link>
       </div>
     </div>

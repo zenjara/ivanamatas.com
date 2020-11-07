@@ -2,7 +2,7 @@
 
 .contactContainer {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     padding: 0 162px;
     margin-bottom: 152px;
 }

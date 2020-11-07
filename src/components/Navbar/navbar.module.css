@@ -33,7 +33,7 @@
 
 .navLinks {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     padding: 18px 0;
     font-family: var(--font);
     font-weight: var(--medium);

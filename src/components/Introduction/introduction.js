@@ -20,13 +20,16 @@ const Introduction = () => {
       <div className={style.introContent}>
         <h2 className={style.title}>Hi, I’m Ivan</h2>
         <div className={style.introText}>
-          <p>I am a software developer, blogger in the making and content creator 🧑‍💻</p>
-          <p>Born and raised in Split, Croatia 🏡</p>
-          <p>👴 I am {calculateAge(new Date(1993, 1, 10))} years young and
+          <p>I am a software developer, blogger in the making and content creator <span role="img"
+                                                                                        aria-label="emoji">🧑‍💻</span>
+          </p>
+          <p>Born and raised in Split, Croatia <span role="img" aria-label="emoji">🏡</span></p>
+          <p><span role="img" aria-label="emoji">👴</span> I am {calculateAge(new Date(1993, 1, 10))} years young and
             work
             as a fullstack web developer at
-            <a className={style.arsfutura} href="https://arsfutura.com/" target="_blank"> Ars Futura</a></p>
-          <p>📍 Currently living in Zagreb</p>
+            <a className={style.arsfutura} href="https://arsfutura.com/" target="_blank" rel="noreferrer"> Ars
+              Futura</a></p>
+          <p><span role="img" aria-label="emoji">📍</span> Currently living in Zagreb</p>
           <br />
           <p>Read more about me <Link to='/about' className={style.aboutLink}>here</Link>.</p>
         </div>

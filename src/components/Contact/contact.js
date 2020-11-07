@@ -27,13 +27,13 @@ const Contact = () => {
           <h5 className={style.socialTitle}>SOCIAL MEDIA</h5>
           <div className={style.socialIcons}>
             <a href="https://www.linkedin.com/in/ivan-matas-258326107/"
-               target="_blank"><LinkedinIcon /></a>
+               target="_blank" rel="noreferrer" aria-label="linkedin"><LinkedinIcon /></a>
             <a href="https://www.instagram.com/xivanmatas/"
-               target="_blank"><InstagramIcon /></a>
+               target="_blank" rel="noreferrer" aria-label="instagram"><InstagramIcon /></a>
             <a href="https://github.com/zenjara"
-               target="_blank"><GithubIcon /></a>
+               target="_blank" rel="noreferrer" aria-label="github"><GithubIcon /></a>
             <a href="https://www.youtube.com/channel/UCjSkilftOHgTQQfP-BQV8HQ"
-               target="_blank"><YoutubeIcon /></a>
+               target="_blank" rel="noreferrer" aria-label="youtube"><YoutubeIcon /></a>
           </div>
         </div>
       </div>

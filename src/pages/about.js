@@ -9,7 +9,7 @@ import "../components/layout.css"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Ivan Matas | About" />
     <div className="fullWidth">
       <Navbar active={true} />
       <Experience />

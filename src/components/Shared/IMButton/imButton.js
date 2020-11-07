@@ -6,7 +6,7 @@ import style from "./imButton.module.css"
 const IMButton = (props) => {
   return (
     <button className={style.button}>
-      <a href={props.href} target='_blank' className={style.buttonContent}>
+      <a href={props.href} target='_blank' rel="noreferrer" className={style.buttonContent}>
         {props.podcast &&
         <PlayIcon className={style.buttonIcon} />
         }

@@ -12,7 +12,7 @@ import "../components/layout.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Ivan Matas | Home" />
     <div className="fullWidth">
       <Navbar />
       <Introduction />
