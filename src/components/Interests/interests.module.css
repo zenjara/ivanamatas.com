@@ -1,0 +1,32 @@
+.interestContainer {
+    flex-basis: 40%;
+    /*padding: 30px 0 1% 10%;*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*background-image: -webkit-linear-gradient(150deg, rgba(246, 99, 90, 0.85) 77%, rgba(196, 196, 196, 0.15) 15%);*/
+}
+
+.interestTitle {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+}
+
+/*.interests {*/
+/*    list-style: none;*/
+/*}*/
+
+/*.interests li {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.interests svg {*/
+/*    height: 40px;*/
+/*    width: 40px;*/
+/*    margin-right: 12px;*/
+/*}*/

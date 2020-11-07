@@ -1,0 +1,26 @@
+.jumbotronContainer {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*height: 550px;*/
+    /*margin: 0 -16% 44px;*/
+    /*padding: 0 12%;*/
+    /*margin-bottom: 44px;*/
+    /*padding: 46px 178px 79px 0;*/
+    /*background: rgba(196, 196, 196, 0.15);*/
+
+}
+
+/*.jumbotronTitle {*/
+/*    flex-basis: 50%;*/
+/*    text-align: center;*/
+/*}*/
+
+.jumbotronTitle {
+    background: -webkit-linear-gradient(rgba(243, 90, 80, 1), rgba(5, 5, 5, 0.4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
