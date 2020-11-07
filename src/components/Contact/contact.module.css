@@ -1,0 +1,69 @@
+@import '../../shared/styles/general.css';
+
+.contactContainer {
+    display: flex;
+    align-items: start;
+    padding: 0 162px;
+    margin-bottom: 152px;
+}
+
+.contactInfo {
+    flex-basis: 55%;
+    margin-right: 72px;
+}
+
+.emailContainer {
+    border-left: 3px solid var(--primary-color);
+    margin-bottom: 72px;
+    padding-left: 46px;
+    padding-bottom: 16px;
+}
+
+.email {
+    display: inline-block;
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: var(--semibold);
+    line-height: 58px;
+
+    border-bottom: 3px solid;
+}
+
+.contactDescription {
+    font-weight: var(--light);
+    font-size: 18px;
+    line-height: 22px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.socialContent {
+    padding-left: 40px;
+}
+
+.socialTitle {
+    margin-bottom: 32px;
+    font-weight: var(--medium);
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+}
+
+.socialIcons {
+    display: flex;
+}
+
+.socialIcons a {
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.socialIcons a:not(:last-child) {
+    margin-right: 24px;
+}
+
+.contactIllustration {
+    flex-basis: 45%;
+}

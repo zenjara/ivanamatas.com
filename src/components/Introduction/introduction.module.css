@@ -1,0 +1,56 @@
+@import '../../shared/styles/general.css';
+
+.introductionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 114px;
+    margin-bottom: 144px;
+}
+
+.introContent {
+}
+
+.introImage {
+    width: 360px;
+    height: 360px;
+    margin-right: 44px;
+    /*margin-right: 28px;*/
+    border: 0.5px solid rgba(0, 0, 0, 0.45);
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 15px 2px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+    margin-bottom: 26px;
+    font-family: var(--font);
+    font-size: 44px;
+    /*font-size: 64px;*/
+    font-weight: var(--semibold);
+    line-height: 77px;
+    letter-spacing: 0.04em;
+}
+
+.introText {
+    font-family: var(--body-font);
+    font-weight: var(--regular);
+    font-size: 18px;
+    /*font-size: 24px;*/
+    line-height: 29px;
+    letter-spacing: 0.02em;
+}
+
+.introText p {
+    margin-bottom: 16px;
+}
+
+.arsfutura {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.aboutLink {
+    color: black;
+    border-bottom: 2px solid black;
+}

@@ -1,0 +1,53 @@
+@import '../../shared/styles/general.css';
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 162px;
+    margin-bottom: 80px;
+}
+
+.brand {
+}
+
+.fullName {
+    margin-bottom: 8px;
+    font-family: var(--font);
+    font-size: 22px;
+    font-weight: var(--semibold);
+    line-height: 39px;
+}
+
+.title {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: var(--regular);
+    line-height: 22px;
+    font-family: var(--font);
+}
+
+#role {
+    font-size: 16px;
+    line-height: 17px;
+}
+
+.navLinks {
+    display: flex;
+    align-items: start;
+    padding: 18px 0;
+    font-family: var(--font);
+    font-weight: var(--medium);
+    font-size: 18px;
+}
+
+.navLinks a:hover {
+    font-weight: var(--semibold);
+}
+
+.active {
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.navLinks a:not(:last-child) {
+    margin-right: 32px;
+}

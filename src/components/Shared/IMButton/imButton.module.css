@@ -1,0 +1,32 @@
+@import '../../../shared/styles/general.css';
+
+.button {
+    display: block;
+    min-width: 118px;
+    margin: 0 auto;
+    padding: 16px;
+    background: var(--primary-color);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+
+    color: white;
+    font-weight: var(--medium);
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.buttonContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonIcon {
+    height: 30px;
+    width: 30px;
+    margin: 0 8px 0 0;
+}

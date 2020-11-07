@@ -1,0 +1,12 @@
+:root {
+    --font: 'Montserrat', sans-serif;
+    --body-font: 'Lato', sans-serif;
+    --primary-color: #F6635A;
+
+
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semibold: 600;
+    --bold: 700;
+}

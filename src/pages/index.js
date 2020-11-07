@@ -1,21 +1,31 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Navbar from "../components/Navbar/navbar"
+import Introduction from "../components/Introduction/introduction"
+import ImDivider from "../components/Shared/IMDivider/imDivider"
+import LatestContent from "../components/LatestContent/latestContent"
+import Contact from "../components/Contact/contact"
+import Footer from "../components/Footer/footer"
+import "../components/layout.css"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="fullWidth">
+      <Navbar />
+      <Introduction />
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <ImDivider />
+    <div className="fullWidth">
+      <LatestContent className='fullWidth' />
+    </div>
+    <ImDivider title='Contact' />
+    <div className="fullWidth">
+      <Contact className='fullWidth' />
+      <Footer className='fullWidth' />
+    </div>
   </Layout>
 )
 

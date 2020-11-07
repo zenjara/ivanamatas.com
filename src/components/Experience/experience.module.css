@@ -1,0 +1,116 @@
+.illustration {
+    padding: 0 199px;
+    margin: 0 auto 144px;
+}
+
+.illustration svg {
+    width: 100%;
+}
+
+.experienceContainer {
+    display: flex;
+    padding: 0 80px 0 128px;
+    margin-bottom: 88px;
+    font-family: var(--body-font);
+}
+
+.experience {
+    flex-basis: 50%;
+    margin-right: 100px;
+}
+
+.experienceTitle {
+    display: inline-block;
+    margin-bottom: 32px;
+    font-family: var(--body-font);
+    font-size: 40px;
+    font-weight: var(--regular);
+    line-height: 48px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.experienceSubTitle {
+    margin-bottom: 40px;
+    font-family: var(--body-font);
+    font-size: 18px;
+    font-weight: var(--medium);
+    line-height: 22px;
+}
+
+.jobList {
+    margin-bottom: 64px;
+}
+
+.jobListItem {
+    margin-bottom: 32px;
+    font-family: var(--body-font);
+}
+
+.jobListItem h5 {
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 4px;
+    font-weight: var(--medium);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.jobListItem span {
+    font-weight: var(--light);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.jobListItem h6 {
+    font-weight: var(--light);
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.certificates {
+    flex-basis: 50%;
+}
+
+
+.certificate a {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-weight: var(--medium);
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.certificate span {
+    margin-left: 16px;
+    font-weight: var(--light);
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.resumeContainer {
+    margin-left: 128px;
+}
+
+.resume {
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-bottom: 400px;
+    font-weight: var(--semibold);
+    border-bottom: 3px solid black;
+    font-size: 24px;
+    line-height: 29px;
+
+    background: linear-gradient(to bottom, black 0%, black 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+
+.resume:hover {
+    color: white;
+    background-size: 4px 50px;
+    border-bottom: white;
+}

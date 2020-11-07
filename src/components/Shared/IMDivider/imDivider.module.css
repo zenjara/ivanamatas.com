@@ -1,0 +1,30 @@
+@import '../../../shared/styles/general.css';
+
+.dividerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.dividerLineLeft {
+    flex-basis: 35%;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.dividerLineRight {
+    flex-basis: 35%;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.dividerTitle {
+    flex-basis: 30%;
+    /*padding: 0 97px;*/
+    font-family: var(--font);
+    font-weight: var(--semibold);
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.25em;
+    text-align: center;
+    text-transform: uppercase;
+}

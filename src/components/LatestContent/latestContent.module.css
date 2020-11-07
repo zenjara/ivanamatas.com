@@ -1,0 +1,13 @@
+@import '../../shared/styles/general.css';
+
+.contentContainer {
+}
+
+.contentTitle {
+    margin-bottom: 80px;
+    padding-left: 180px;
+    font-family: var(--font);
+    font-weight: var(--semibold);
+    font-size: 36px;
+    line-height: 44px;
+}
